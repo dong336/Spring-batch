@@ -1,7 +1,14 @@
-<br></br>
+# Memo
+스케일링이 없는 기본 배치임  
+JobParameter 가 존재할 때, 동일한 Job에 대한 또다른 JobInstance를 생성해서 실행할 수 있음  
+없을 경우 restartable 옵션이 없으면 1번만 실행됌  
+(JobParameter + Job => JobInstance (실제로 동작할 인스턴스))
+
+
+<br></br><br></br><br></br><br></br>
 # Spring-batch
-- 스프링 배치 기본 샘플 참고 : https://deeplify.dev/back-end/spring/batch-tutorial
-- 스프링 공식 docs : https://docs.spring.io/spring-batch/docs/current/reference/html/
+* 스프링 공식 docs : https://docs.spring.io/spring-batch/docs/current/reference/html/
+* 소스 샘플 참고 : https://deeplify.dev/back-end/spring/batch-tutorial
 
 <br></br><br></br><br></br><br></br>
 # 일반적인 배치 처리 가이드라인
