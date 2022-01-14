@@ -6,9 +6,9 @@ JobParameter 가 존재할 때, 동일한 Job에 대한 또다른 JobInstance를
 
 
 <br></br><br></br><br></br><br></br>
-# Spring-batch
+# 참고
 * 스프링 공식 docs : https://docs.spring.io/spring-batch/docs/current/reference/html/
-* 소스 샘플 참고 : https://deeplify.dev/back-end/spring/batch-tutorial
+* 소스 샘플 : https://deeplify.dev/back-end/spring/batch-tutorial
 
 <br></br><br></br><br></br><br></br>
 # 일반적인 배치 처리 가이드라인
