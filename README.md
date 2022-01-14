@@ -2,7 +2,10 @@
 세부 파티셔닝(context, chunk 옵션 등) 없는 기본 배치임  
 JobParameter 가 존재할 때, 동일한 Job에 대한 또다른 JobInstance를 생성해서 실행할 수 있음  
 없을 경우 restartable 옵션이 없으면 1번만 실행됌  
-(JobParameter + Job => JobInstance (실제로 동작할 인스턴스))
+(JobParameter + Job => JobInstance (실제로 동작할 인스턴스))  
+Job은 Step으로 구성되며, Step은 Tasklet 또는 Reader, Writer, Processor로 파티셔닝할 수 있음  
+대용량 처리가 아니면 일반적으로 배치 파티셔닝이 필요 없을 것으로 예상됨  
+병렬처리 하는 경우, 트랜잭션 락을 극도로 주의해야 함
 
 
 <br></br><br></br><br></br><br></br>
