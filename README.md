@@ -1,5 +1,5 @@
 # Memo
-스케일링이 없는 기본 배치임  
+세부 파티셔닝(chunk 등) 없는 기본 배치임  
 JobParameter 가 존재할 때, 동일한 Job에 대한 또다른 JobInstance를 생성해서 실행할 수 있음  
 없을 경우 restartable 옵션이 없으면 1번만 실행됌  
 (JobParameter + Job => JobInstance (실제로 동작할 인스턴스))
